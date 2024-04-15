@@ -1,0 +1,1 @@
+SELECT DISTINCT name FROM person JOIN person_order ON person_id = person.id ORDER BY name;
